@@ -15,7 +15,7 @@ const winningArr = [
   [6, 7, 8],
   [1, 4, 7],
   [2, 5, 8],
-   [6, 4, 2],
+  [6, 4, 2],
   
 ];
 
@@ -28,14 +28,14 @@ box.forEach((box) => {
       box.innerText = "X";
       num = true;
     }
-      box.disabled = true;
-      count++;
+    box.disabled = true;
+    count++;
 
-      let iswinner = checkWinner();
-      if (count === 9 && !iswinner) {
+      let isWinner = checkWinner();
+      if (count === 9 && !isWinner) {
           gameDraw(); // when no one is the winner
       }
-  });
+  }); 
 });
 
 //gamedraw condition.
