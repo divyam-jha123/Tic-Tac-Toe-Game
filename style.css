@@ -6,7 +6,8 @@
     bottom:0;
     margin: 7.8rem;
     background-color: #ced4da;
-    height: auto;
+    height: 2rem;
+    text-align: center;
 }
 
 .winner{
